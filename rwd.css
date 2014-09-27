@@ -27,3 +27,22 @@
 .container > :last-child {
     margin-right:0;
 }
+
+@media (max-width:700px) {
+    .threesome {
+        float:none;
+        width:100%;
+        margin-bottom:2%;
+    }
+    .container > :last-child {
+        margin-bottom:0;
+    }
+}
+
+@media (max-width:500px){
+    .twosome {
+        float:none;
+        width:100%;
+        margin-bottom:2%;
+    }
+}
