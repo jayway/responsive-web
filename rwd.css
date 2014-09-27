@@ -1,18 +1,19 @@
 .threesome {
     background-color:green;
     float:left;
-    width:300px;
-    margin-right:20px;
+    width:31.914893617%;
+    margin-right:2.12765957447%;
 }
 .twosome {
     background-color: blue;
     float:left;
-    width:460px;
-    margin-right: 20px;
+    width:48.9361702128%;
+    margin-right: 2.12765957447%;
 }
 .container {
     background-color: red;
     width:960px;
+    max-width:90%;
     margin:auto;
     padding:10px;
     margin-bottom: 20px;
