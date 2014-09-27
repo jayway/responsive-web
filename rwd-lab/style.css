@@ -1,0 +1,67 @@
+/**
+ * style.css
+ *
+ * Edit this for the responsive web design lab
+ */
+
+@media all {
+  
+  /**
+   * Set some pretty colors and spacing
+   */
+  .header,
+  .content-primary,
+  .content-secondary,
+  .footer {
+    padding: 1em;
+  }
+  .header {
+    background: #99f;
+  }
+  .content-primary {
+    background: #cf9;
+  }
+  .content-secondary {
+    background: #9c6;
+  }
+  .footer {
+    background: #9cf;
+  }
+  
+  /**
+   * Layout (uses inflexible pixel widths)
+   */
+  .main {
+    margin: 0 auto;
+    width: 800px;
+  }
+  .content {
+    overflow: hidden;
+  }
+  .content-primary {
+    float: left;
+    width: 500px;
+  }
+  .content-secondary {
+    float: left;
+    width: 300px;
+  }
+  
+  /**
+   * Grid (uses inflexible pixel widths)
+   */
+   .grid {
+     background: #cc9;
+     padding: 1em;
+     overflow: hidden;
+   }
+   .grid-item {
+     background: #996;
+     float: left;
+     margin: 0 1em 1em 0;
+     padding: 1em;
+     width: 200px;
+     height: 200px;
+   }
+  
+}
